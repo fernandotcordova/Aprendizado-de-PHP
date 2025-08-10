@@ -13,12 +13,18 @@
 	
 	//Constantes
 	const PAIS = "Brasil";
-	
+	$valorÆ = 200; 
 	echo "Você mora no: " .PAIS . "<br>";  //Pode estar acentuada (não recomandada, mas aceita)
 	
 	#PAIS = "Japão"; //Não aceitará ser mudado.
 	#Outro método de comentar
 	
 	echo "Olá, você mora no: " .PAIS . "<br>";
-    
+
+    echo "Teste: $valorÆ";
+
+
+    const _TX = 850;
+
+    echo "<br>Resultado = ". _TX;
 ?>
