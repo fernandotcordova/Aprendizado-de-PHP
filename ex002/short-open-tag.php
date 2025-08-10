@@ -10,7 +10,6 @@
 		
         <h1>Testando PHP</h1>
 
-
 		<?
 		$nome = "Fernando";
 		echo "<p>O meu nome é $nome</p>"
