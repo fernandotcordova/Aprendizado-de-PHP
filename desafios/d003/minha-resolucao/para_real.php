@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <main>
@@ -14,11 +14,10 @@
         
         $valor = $_GET["conversor_para_reais"];
 
-        if($valor == null){
-            echo "Você não digitou nada";
-            die();
+        if($valor == null && $valor < 0){
+         
         }
-        echo "Resultado: R$".$valor * 5.74; 
+        echo "Resultado: R$".$valor * 5.40; 
         
         ?>
 
