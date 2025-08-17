@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício conversor de moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Exercício conversor de moedas</h1>
+
+        <form action="para_real.php" method="get">
+            <label for="conversor">Digite o valor (em dolares):</label>
+            <input type="number" name="conversor_para_reais" id="id-real">
+            <button type="submit">Enviar</button>
+        </form>
+
+        <form action="para_dolares.php" method="get">
+            <label for="conversor_dolares">Digite o valor (em reais):</label>
+            <input type="number" name="conversor_para_dolares" id="id-dolares">
+            <button type="submit" name="number_para_dolares">Enviar</button>
+        </form>
+        
+    </main>
+</body>
+</html>
