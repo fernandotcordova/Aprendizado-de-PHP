@@ -22,7 +22,11 @@
         <?php 
         
         $salarioUser = $_GET['salario'];
-        $salarioAtual = (float) 1_518;
+        $salarioAtual = (float) 1_518 ?? 1_518;
+        if($salarioUser < $salarioAtual){
+            echo "<center>Salário menor que o mínimo. Salário definido com mínimo<br></center>";
+            $salarioUser = $salarioAtual;
+        }
 
         $calculo = (int) ($salarioUser / $salarioAtual);
 
